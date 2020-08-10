@@ -1,0 +1,179 @@
+body {
+    text-align: center;
+    width: 100%
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold";
+}
+
+p {
+    color: #8f8f8f;
+    font-size: 1.5rem;
+    margin: 2%;
+}
+
+            /* title section*/
+#Title {
+    background-color: black;
+    color:#fff;
+    text-align: left;
+
+}
+
+.title-img {
+    width: 1000px;
+    height: 800px;
+    padding: 0px 300px 100px 0px;
+}
+
+.title-div {
+    margin: 3%;
+}
+
+                /* headings */
+.Big-Heading {
+    font-family: "Montserrat-Thick";
+    line-height: 1.5;
+    color: red;
+    margin-top: 60px;
+    margin-left: 40px;
+    font-weight: 600;
+    font-size: 4rem;
+}
+
+.cta-heading {
+    font-family: "Montserrat-Black";
+    font-size: 4rem;
+}
+
+                
+                        /* containers */
+.container-fluid {
+    padding:7%  15%;
+}
+
+#Title .container-fluid {
+    padding: 3% 10% 7% ;
+}
+
+                /* feature Setion */
+
+#features {
+   background-color:#fff;
+    color: black;
+    text-align: center;
+}
+
+.feature-title {
+    font-size: 2rem;
+}
+
+.feature-box {
+    padding: 3%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+                             /*Button styling*/
+
+ .Download-Button {
+    margin: 3% 2% 15% 2rem;
+}
+
+
+                                /* navigation bar */
+.navbar {
+    padding: 0 0 4.5rem 0;
+    
+}
+
+.nav-item {
+    padding: 0 18px;
+   
+}
+
+.navbar-brand1 {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: Ubuntu;
+    line-height: 2;
+    margin-left: 30px;
+    color: #f4f6ff;
+    text-decoration: none;
+}
+
+.navbar-brand1:hover {
+    color:#84a9ac;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    font-family: "Montserrat-light";
+    color: #f4f6ff;
+}
+
+.nav-link:hover {
+    color:#84a9ac;
+}
+
+
+                                        /* cta section */
+#cta {
+    color: #fff;
+    background-color: #ef8172;
+    text-align: center;
+    height: 450px;
+    margin-bottom: 40px;
+}
+
+
+                                 /* footer section */
+.social-icons{
+    margin: 20px 10px;
+}
+
+#footer {
+    background-color: #fff;
+    text-align: center;
+}
+
+.copyright-text {
+    font-size: 1rem;
+}
+
+                                        /* media query CSS */
+
+@media (max-width:1028px) {
+   
+    #Title {
+       text-align: center;
+    }
+    
+    .title-img {
+        width: 800px;
+        height: 600px;
+       
+    }
+    
+    .Big-Heading {
+        font-size: 2.5rem;
+        line-height: 1.5;
+    }
+    
+    .cta-heading {
+        font-size: 2.5rem;
+        line-height: 1.5;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+        
+}
+
+
